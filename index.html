@@ -30,54 +30,52 @@
                     <i class="bi bi-list fs-2"></i>
                 </button>
 
-                <a class="navbar-brand fw-bold" href="./index.html">
-                    <img src="img/logo.png" alt="Teddy Logo" class="logo-img">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <img src="img/logo.png" alt="Logo" class="logo-img">
                 </a>
-
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navContent">
                     <i class="bi bi-grid-3x3-gap-fill fs-2 text-dark"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Trang chủ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./gioithieu.html">Giới Thiệu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./lienhe.html">Liên Hệ</a></li>
-
+                <div class="collapse navbar-collapse justify-content-center" id="navContent">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item"><a class="nav-link" href="index.html">TRANG CHỦ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">HỎI ĐÁP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lienhe.html">LIÊN HỆ</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="servDropdown" role="button" data-bs-toggle="dropdown">
-                                Dịch vụ
-                            </a>
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">DỊCH
+                                VỤ</a>
                             <ul class="dropdown-menu border-0 shadow-sm">
-                                <li><a class="dropdown-item" href="./serv/chinhsach.html">Chính sách bán hàng</a></li>
-                                <li><a class="dropdown-item" href="./serv/tttt.html">Tiếp Thị Trực Tuyến</a></li>
-                                <li><a class="dropdown-item" href="./serv/ship.html">Dịch Vụ Vận chuyển</a></li>
-                                <li><a class="dropdown-item" href="./serv/marketing.html">Đào tạo Marketing</a></li>
-                                <li><a class="dropdown-item" href="./serv/ai.html">Chuyên viên AI</a></li>
-                                <li><a class="dropdown-item" href="./serv/fullfillment.html">Vận Chuyển FULLFILLMENT</a>
+                                <li><a class="dropdown-item" href="serv/chinhsach.html">Chính sách bảo hành</a>
                                 </li>
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="./faq.html">Câu Hỏi Thường Gặp</a></li>
-
-                        <li class="nav-item ms-lg-3">
-                            <select class="form-select form-select-sm lang-select" onchange="changeLang(this.value)">
-                                <option value="">Language</option>
-                                <option value="vi">🇻🇳 Tiếng Việt</option>
-                                <option value="lo">🇱🇦 Lào</option>
-                                <option value="my">🇹🇭 Thái</option>
-                                <option value="km">🇰🇭 Campuchia</option>
-                            </select>
-                        </li>
                     </ul>
-                    <div id="google_translate_element" style="display:none;"></div>
+
                 </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item ms-lg-3">
+                        <select class="form-select form-select-sm lang-select" onchange="changeLang(this.value)">
+                            <option value="">Language</option>
+                            <option value="vi">🇻🇳 Tiếng Việt</option>
+                            <option value="lo">🇱🇦 Lào</option>
+                            <option value="my">🇹🇭 Thái</option>
+                            <option value="km">🇰🇭 Campuchia</option>
+                        </select>
+                    </li>
+                    <div id="google_translate_element" style="display:none;"></div>
+                </ul>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navContent">
+                    <i class="bi bi-grid-3x3-gap-fill fs-2 text-dark"></i>
+                </button>
             </div>
         </nav>
 
-        <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="sidebarLeft">
+          <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="sidebarLeft">
             <div class="offcanvas-header border-bottom">
                 <h5 class="offcanvas-title fw-bold">DANH MỤC</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -142,13 +140,12 @@
                 </ul>
             </div>
         </div>
-
     </header>
 
     <section id="home" class="slider-container">
         <div class="slider">
             <div class="slide active">
-                <img src="./img/banner5.jpg" alt="">
+                <img src="img/banner5.jpg" alt="">
 
             </div>
 
@@ -168,97 +165,86 @@
     </section>
 
 
-    <section id="services" class="services py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Dịch Vụ Của Chúng Tôi</h2>
-
-            <div class="row g-4 text-center">
-
-                <div class="col-md-4">
-                    <a href="./serv/chinhsach.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/mazda6 (2).png');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-shop fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Chính sách bán hàng</h3>
-                                <p class="text-muted">Mang lại cho khách hàng trải nghiệm mua hàng tiện lợi, an toàn.
-                                </p>
-                            </div>
+   <section id="services" class="services py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Dịch Vụ Của Chúng Tôi</h2>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <a href="serv/chinhsach.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/mazda6 (2).png');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-shop fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Chính sách bán hàng</h3>
+                            <p class="text-muted">Mang lại cho khách hàng trải nghiệm mua hàng tiện lợi, an toàn.</p>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="./serv/tttt.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/bg-marketing.jpg');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-megaphone fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Marketing Online</h3>
-                                <p class="text-muted">Tiếp cận đúng khách hàng mục tiêu thông qua các kênh quảng cáo số.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="./serv/ship.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/bg-strategy.jpg');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-truck-front-fill fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Dịch vụ vận chuyển</h3>
-                                <p class="text-muted">Vận chuyển toàn cầu, đảm bảo an toàn.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                    </div>
+                </a>
             </div>
 
-
-            <div class="row g-4 text-center mt-4">
-
-                <div class="col-md-4">
-                    <a href="./serv/maketing.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/mazda6 (2).png');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-wechat fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Đào Tạo Maketing</h3>
-                                <p class="text-muted">Mang lại cho khách hàng trải nghiệm mua hàng tiện lợi, an toàn.
-                                </p>
-                            </div>
+            <div class="col-md-4">
+                <a href="serv/tttt.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/bg-marketing.jpg');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-megaphone fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Marketing Online</h3>
+                            <p class="text-muted">Tiếp cận đúng khách hàng mục tiêu thông qua các kênh quảng cáo số.</p>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
 
-                <div class="col-md-4">
-                    <a href="serv/AI.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/bg-marketing.jpg');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-robot fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Chuyên Viên AI</h3>
-                                <p class="text-muted">Tiếp cận đúng khách hàng mục tiêu thông qua các kênh quảng cáo số.
-                                </p>
-                            </div>
+            <div class="col-md-4">
+                <a href="serv/ship.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/bg-strategy.jpg');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-truck-front-fill fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Dịch vụ vận chuyển</h3>
+                            <p class="text-muted">Vận chuyển toàn cầu, đảm bảo an toàn.</p>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="serv/fullfillment.html" class="text-decoration-none h-100 d-block">
-                        <div class="card h-100 service-box-bg" style="background-image: url('img/bg-strategy.jpg');">
-                            <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
-                                <i class="bi bi-truck fs-1 text-primary mb-3"></i>
-                                <h3 class="h4 fw-bold">Vận Chuyển FULLFILLMENT</h3>
-                                <p class="text-muted">Vận chuyển toàn cầu, đảm bảo an toàn.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                    </div>
+                </a>
             </div>
         </div>
 
-    </section>
+        <div class="row g-4 text-center mt-4">
+            <div class="col-md-4">
+                <a href="serv/marketing.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/mazda6 (2).png');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-wechat fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Đào Tạo Marketing</h3>
+                            <p class="text-muted">Mang lại cho khách hàng trải nghiệm mua hàng tiện lợi, an toàn.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="serv/AI.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/bg-marketing.jpg');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-robot fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Chuyên Viên AI</h3>
+                            <p class="text-muted">Tiếp cận đúng khách hàng mục tiêu thông qua các kênh quảng cáo số.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="serv/fullfillment.html" class="text-decoration-none h-100 d-block">
+                    <div class="card h-100 service-box-bg" style="background-image: url('img/bg-strategy.jpg');">
+                        <div class="card h-100 border-0 shadow-sm p-4 service-box-custom transition">
+                            <i class="bi bi-truck fs-1 text-primary mb-3"></i>
+                            <h3 class="h4 fw-bold">Vận Chuyển FULLFILLMENT</h3>
+                            <p class="text-muted">Vận chuyển toàn cầu, đảm bảo an toàn.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- button icon nổi -->
@@ -419,14 +405,14 @@
                     <div class="col-md-3">
                         <h5 class="fw-bold mb-4">về chúng tôi</h5>
                         <ul class="list-unstyled footer-links">
-                            <li><a href="./serv/chinhsach.html">Chính sách bán hàng</a></li>
+                            <li><a href="serv/chinhsach.html">Chính sách bán hàng</a></li>
 
                         </ul>
-                        <a href="./index.html">
+                        <a href="index.html">
                             <img src="img/logo.png" alt="logo" width="100" alt="Teddy Logo" class="logo-img">
                         </a>
 
-                        
+
                     </div>
                     <div class="col-md-3">
                         <h5 class="fw-bold mb-4">THÔNG TIN LIÊN HỆ</h5>
@@ -437,9 +423,9 @@
                     <div class="col-md-3">
                         <h5 class="fw-bold mb-4">TRANG CỦA CỬA HÀNG</h5>
                         <ul class="list-unstyled footer-links">
-                            <li><a href="./index.html">trang chủ</a></li>
-                            <li><a href="./gioithieu.html">giới thiệu</a></li>
-                            <li><a href="./lienhe.html">Kết nối với chúng tôi</a></li>
+                            <li><a href="index.html">trang chủ</a></li>
+                            <li><a href="gioithieu.html">giới thiệu</a></li>
+                            <li><a href="lienhe.html">Kết nối với chúng tôi</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
